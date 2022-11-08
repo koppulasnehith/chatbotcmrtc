@@ -1,0 +1,160 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": [""],
+         "responses": [ "Sorry, can't understand you"],
+         "context": [""]
+        },
+
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day!"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What help do you provide?", "How can you be helpful?", "What support is offered ?"],
+         "responses": ["I will help you to know about CMRTC"],"context": [""]
+        },
+        {"tag": "courses",
+         "patterns": ["what are the courses offered ?","courses offered","All couses offered","what are various departments of the institute?","department names","names of all the departments","b.tech courses","bachelor of technology courses"],
+         "responses": ["1.Computer Science and Engineering\n2.Computer Science and Engineering (Artificial Intelligence and Machine Learning)\n3.Computer Science and Engineering (Data Science)\n4.Computer Science and Engineering (Cyber Security)\n5.Artificial Intelligence and Machine Learning\n6.Information Technology\n7.Electronics and Communication Engineering"],
+         "context": [""]
+        },
+        {"tag": "intake1",
+         "patterns": ["what is the intake of Computer Science and Engineering ?","what is the intake of CSE ?","intake of Computer Science and Engineering","intake of CSE","CSE intake","strength of CSE","what is the strength of CSE?","what is the strength of Computer Science and Engineering?","strength of Computer Science and Engineering" ],
+         "responses": ["The intake of Computer Science and Engineering is 240"],
+         "context": [""]
+        },
+        {
+         "tag": "intake2",
+         "patterns": ["what is the intake of Computer Science and Engineering (Artificial Intelligence and Machine Learning) ?","what is the intake of CSE Artificial Intelligence and Machine Learning?","intake of Computer Science and Engineering Artificial Intelligence and Machine Learning","intake of CSE Artificial Intelligence and Machine Learning)","CSE (Artificial Intelligence and Machine Learning) intake","strength of CSE (Artificial Intelligence and Machine Learning)","what is the strength of CSE?","what is the strength of Computer Science and Engineering (Artificial Intelligence and Machine Learning)?","strength of Computer Science and Engineering Artificial Intelligence and Machine Learning","intake of CSE(AI and ML)","what is the intake of CSE(AI and ML)?","intake of CSE ai and ml","intake of cse ai"],
+         "responses": ["The intake of Computer Science and Engineering (Artificial Intelligence and Machine Learning) is 180"],
+         "context": ["python "]
+        },
+        {"tag": "intake3",
+         "patterns": ["what is the intake of Computer Science and Engineering Data Science ?","what is the intake of CSE Data Science ?","intake of Computer Science and Engineering Data Science","intake of CSE Data Science","CSE Data Science intake","strength of CSE Data Science","what is the strength of CSE ds?","what is the strength of Computer Science and Engineering Data Science?","strength of Computer Science and Engineering Data Science","intake of CSE ds","what is the intake of CSE ds?","intake of CSE ds"],
+         "responses": ["The intake of Computer Science and Engineering (Data Science) is 180"],
+         "context": [""]
+        },
+        {"tag": "intake4",
+         "patterns": [ "what is the intake of Computer Science and Engineering Cyber Security ?","what is the intake of CSE Cyber Security ?","intake of Computer Science and Engineering Cyber Security","intake of CSE Cyber Security","CSE Cyber Security intake","strength of CSE Cyber Security","what is the strength of CSE cs?","what is the strength of Computer Science and Engineering Cyber Security?","strength of Computer Science and Engineering Cyber Security","intake of CSE cs","what is the intake of CSE cs?","intake of CSE cs"],
+         "responses": ["The intake of Computer Science and Engineering ( Cyber Security) is 60"],
+         "context": [""]
+        },
+        {"tag": "intake5",
+         "patterns": ["what is the intake of Artificial Intelligence and Machine Learning?","what is the intake of Artificial Intelligence and Machine Learning?","intake of Artificial Intelligence and Machine Learning","intake of  Artificial Intelligence and Machine Learning","CSE Artificial Intelligence and Machine Learning intake","strength of Artificial Intelligence and Machine Learning","what is the strength of ai and ml?","what is the strength of Artificial Intelligence and Machine Learning?","strength of Artificial Intelligence and Machine Learning","intake of AI and ML","what is the intake of AI and ML?","intake of ai and ml"],
+         "responses": ["The intake of Artificial Intelligence and Machine Learning is 120"],
+         "context": [""]
+        },
+        {"tag": "intake6",
+         "patterns": ["what is the intake of Information Technology ?","what is the intake of IT ?","intake of Information Technology","intake of IT","IT intake","strength of IT","what is the strength of IT?","what is the strength of Information Technology?","strength of Information Technology" ],
+         "responses": ["The intake of Information Technology is 120"],
+         "context": [""]
+        },
+        {"tag": "intake7",
+         "patterns": ["what is the intake of Electronics and Communication Engineering ?","what is the intake of ECE ?","intake of Electronics and Communication Engineering","intake of ECE","ECE intake","strength of ECE","what is the strength of ECE?","what is the strength of Electronics and Communication Engineering?","strength of Electronics and Communication Engineering"],
+         "responses": ["The intake of Electronics and Communication Engineering is 120"],
+         "context": [""]
+        },
+        {"tag": "documents",
+         "patterns": ["what are required documents for B.tech admissions?","documents required for admissions","documents required for b.tech"],
+         "responses": ["1.SSC( ORIGINAL)\n2.INTERMEDIATE/ EQUIVALENT FROM TS-INTERMEDIATE BOARD (IF STUDY IN OTHER STATE)\n3.TRANSFER CERTIFICATE\n4.EAMCET /JEE/ ECET( HALL TICKET & RANK CARD)\n5.BONAFIDE / STUDY CERTIFICATE (ORIGINAL)\n6.MIGRATION CERTIFICATE (IF STUDY IN OTHER STATE)\n7.SIX PASSPORT SIZE PHOTOS\n8.THREE SETS OF XEROX COPIES OF ALL CERTIFICATES\n9.AADHAR CARD XEROX (THREE COPIES)"],
+         "context": [""]
+        },
+        
+        {"tag": "mangement",
+         "patterns": ["what are the requirements to seek admission under management quota ?","requirements to get admission under management quota"],
+         "responses": ["A student should either have obtained a rank or should have secured a minimum aggregate percentage of 50% in group subjects (Mathematics, Physics and Chemistry) in the Intermediate Examination of the Board of Intermediate Education, Government of Telangana or any other examination recognized by the Government of Telangana as its equivalent."],
+         "context": [""]
+        },
+        {"tag": "attendance",
+        "patterns": ["what is the minimum requirement of attendance percentage ?","min requirement of attendance","minimum attendance percentage"],
+        "responses": ["The continuous evaluation system adopted by the college clearly expects every student to be responsible for regularity in classrooms, internal tests and other tasks assigned to him/her in the course. As such, students are advised not to remain absent without submission of leave letter to the respective Mentors."],
+        "context": [""]
+       },
+       {"tag": "fees",
+         "patterns": ["what is the fee structure for btech?","tuition fee for btech","fee structure","bachelor of technology fee","college fee"],
+         "responses": ["The tuition fee for B.Tech course is Rs.1,05,000"],
+         "context": [""]
+        },
+        {"tag": "transport",
+         "patterns": ["is transportation facility available ?"," transport facility availability","transport available","transport","bus fees available"],
+         "responses": ["Yes,the transportation facility is available"],
+         "context": [""]
+        },
+        {"tag": "transport1",
+         "patterns": ["what is transportation fee ?"," transportation fees","transport fee","bus fees"],
+         "responses": ["Transportation fee is Rs.40,000 Per Annum"],
+         "context": [""]
+        },
+        {"tag": "hostel",
+        "patterns": ["is hostel facility available ?","hostel facility ?","hostel available"],
+        "responses": ["Yes,the hostel facility is available"],
+        "context": [""]
+       },
+       {"tag": "greet",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hi there,How can I help?"],
+         "context": [""]
+        },
+        {"tag": "affiliations",
+         "patterns": ["affiliations","accreditation","approvals"],
+         "responses": ["Affiliations:\n1.Approved by All India Council For Technical Education, New Delhi\n2.Conferred Autonomous Status by University Grants Commission,New Delhi\n3.Accredited by National Assessment and Accreditation Council, Bengaluru\n4.Accredited by National Board of Accreditation, New Delhi\n5.Approved by Jawaharlal Nehru Technological University, Hyderabad\n6.Certified ISO 9001: 2015 and 14001 : 2015"],
+         "context": [""]
+        },
+        {"tag": "rankings",
+         "patterns": ["rankings","NIRF ranking","ariia ranking"],
+         "responses": ["->CMR Technical Campus is ranked 201-250 Band in Engineering category as per National Institutional Ranking Framework (NIRF) -2021, Ministry of Education (MoE), Govt. of India.\\n->CMR Technical Campus is ranked 201-250 Band in Engineering category as per National Institutional Ranking Framework (NIRF) -2022, Ministry of Education (MoE), Govt. of India.\n->CMR Technical Campus (CMRTC), is categorized as 'Band-Excellent'institution in category of 'Private or Self-Financed College/Institutes' in Atal Ranking of Institutions on Innovation Achievement (ARIIA) - 2021, initiative of Ministry of Education (MoE), Govt. of India, implemented through AICTE and MoE's Innovation Cell.\n->CMR Technical Campus, is categorized as 'Band C' institution (rank between 51-75) in category of 'Private or Self-Financed College/Institutes' in Atal Ranking of Institutions on Innovation Achievement (ARIIA) -2020, initiative of Ministry of Education (MoE), Govt. of India, implemented through AICTE and MoE's Innovation Cell."],
+         "context": [""]
+        },
+        {"tag": "syllabus",
+        "patterns": ["syllabus","syllabi"],
+        "responses":["for information of syllabus visit <a href='https://cmrtc.ac.in/academics/academic-syllabi/'>here</a>"],
+        "context": []
+       },
+       {"tag": "timings",
+        "patterns": ["timings","at what time is institute open","institute open","timings of the institute"],
+        "responses":["The institute is open between 9:20 AM and 4:00 PM"],
+        "context": []
+       },
+       {"tag": "infra",
+        "patterns": ["infrastructure","library","sports complex","playground","seminar halls","class rooms","admin office","auditorium","labs","computer labs","sports facility","lab facility","facility","gym"],
+        "responses":["for information on infrastructure visit <a href='https://cmrtc.ac.in/infrastructure/'>here</a>"],
+        "context": []
+       },
+       {"tag": "placements",
+        "patterns": ["placements","number of students placed","companies","campus recruitment","highest package","average package","number of offers","higher education","alumni","companies visited","training and placements","campus recruitment training","crt","placement training","internships"],
+        "responses":["for information on placements visit <a href='https://cmrtc.ac.in/t-p-cell/about-t-p-cell/'>here/</a>"],
+        "context": []
+       },
+       {"tag": "aboutcollege",
+        "patterns": ["about cmr technical campus","tell me about cmrtc","tell me about cmr technical campus","director","deans","chairman","secretary","governing body","about administration","administration","tell me about administration","management"],
+        "responses":["for information about college visit <a href='https://cmrtc.ac.in/administration/about-society/'>here</a>"],
+        "context": []
+       },
+       {"tag": "location",
+        "patterns": ["how to reach the college","how to reach cmr","location","where is cmrtc located ?","landmark","bus route","location"],
+        "responses":["Location:\nKandlakoya (V), Medchal Road, Hyderabad - 501401, Telangana, India.\nHow to reach:\nFrom Secunderabad: Distance: 20 KM\nRTC Bus Route: 229.\nBus Stop: Kandlakoya.\nLandmark: OPP: NIRAJ INTERNATIONAL SCHOOL || ORR (Exit No : 6)"],
+        "context": []
+       },
+       {"tag":"ragging",
+       "patterns":["ragging","ragging there"],
+       "responses":["it's a ragging free campus and we have ragging committee.for more information visit <a href='https://cmrtc.ac.in/academics/anti-ragging/'>here</a>"],
+       "context": []
+       },
+       {"tag":"aminities",
+        "patterns":["is canteen available","is cafteria available","is stationry available","medical service available","canteen","cafteria","stationary","is internet available","is wifi available","wifi","is atm available","atm"],
+        "responses":["yes it's available.for more information visit <a href='https://cmrtc.ac.in/amenties/'>here</a>"],
+        "context": []
+       }
+   ]
+}
